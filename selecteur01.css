@@ -1,0 +1,9 @@
+section {
+	border: 3px solid grey;
+}
+article {
+	background-color: salmon;
+}
+section main article {
+	background-color: yellow;
+}
