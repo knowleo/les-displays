@@ -1,15 +1,28 @@
-.carre{
-	height: 200px;
-	width: 200px;
+.carre .carre2{
+	height: 600px;
+	width: 600px;
 }
 @media screen and (max-width:799px){
 	.carre{
 		background-color: blue;
+		height: 200px;
+		width: 200px;
+	}
+	.carre .carre2 marquee{
+	visibility: hidden;
 	}
 }
 @media screen and (min-width:800px){
 	.carre{
 		background-color: red;
+		height: 600px;
+		width: 600px;
+	}
+	.carre marquee{
+		visibility: hidden;
+	}
+	.carre .carre2 marquee{
+	visibility: visible;
 	}
 }
 
