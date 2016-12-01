@@ -1,0 +1,41 @@
+.carre{
+	height: 100px;
+	width: 100px;
+}
+.grandcarre{
+	height: 400px;
+	width: 400px;
+	background-color: purple;
+}
+.text{
+	position: absolute;
+	top: 25px;
+	width: 200px;
+	left: 108px;
+}
+#carre-1{
+	background-color: red;
+	top: 0%;
+	left: 75%;
+	position: relative;
+}
+.grandcarre #carre-2{
+	background-color: green;
+	top: -25%;
+	left: 0%;
+	position: relative;
+}
+.grandcarre #carre-3{
+	background-color: blue;
+	top: 25%;
+	right: 0px;
+	position: relative;
+}
+.grandcarre #carre-4{
+	background-color: black;
+	color: white;
+	bottom: 0%;
+	left: 75%;
+	position: relative;
+}
+
